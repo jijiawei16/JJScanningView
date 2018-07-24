@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F383CF3210710770043E7B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F383CF2210710770043E7B1 /* AppDelegate.m */; };
+		0F383CF6210710770043E7B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F383CF5210710770043E7B1 /* ViewController.m */; };
+		0F383CF9210710770043E7B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F383CF7210710770043E7B1 /* Main.storyboard */; };
+		0F383CFB210710770043E7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F383CFA210710770043E7B1 /* Assets.xcassets */; };
+		0F383CFE210710770043E7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F383CFC210710770043E7B1 /* LaunchScreen.storyboard */; };
+		0F383D01210710770043E7B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F383D00210710770043E7B1 /* main.m */; };
+		0F383D0B210710770043E7B1 /* JJScannningViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F383D0A210710770043E7B1 /* JJScannningViewTests.m */; };
+		0F383D16210710770043E7B1 /* JJScannningViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F383D15210710770043E7B1 /* JJScannningViewUITests.m */; };
+		0F383D302107108E0043E7B1 /* flash_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F383D252107108E0043E7B1 /* flash_close.png */; };
+		0F383D312107108E0043E7B1 /* flash_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F383D262107108E0043E7B1 /* flash_open.png */; };
+		0F383D322107108E0043E7B1 /* scanLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F383D272107108E0043E7B1 /* scanLine.png */; };
+		0F383D332107108E0043E7B1 /* 右上.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F383D282107108E0043E7B1 /* 右上.png */; };
+		0F383D342107108E0043E7B1 /* 右下.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F383D292107108E0043E7B1 /* 右下.png */; };
+		0F383D352107108E0043E7B1 /* 左上.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F383D2A2107108E0043E7B1 /* 左上.png */; };
+		0F383D362107108E0043E7B1 /* 左下.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F383D2B2107108E0043E7B1 /* 左下.png */; };
+		0F383D372107108E0043E7B1 /* JJScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F383D2D2107108E0043E7B1 /* JJScanningView.m */; };
+		0F383D382107108E0043E7B1 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0F383D2F2107108E0043E7B1 /* sound.mp3 */; };
+		0F383D3B210710960043E7B1 /* ScanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F383D39210710960043E7B1 /* ScanningViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F383D07210710770043E7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F383CE6210710770043E7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F383CED210710770043E7B1;
+			remoteInfo = JJScannningView;
+		};
+		0F383D12210710770043E7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F383CE6210710770043E7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F383CED210710770043E7B1;
+			remoteInfo = JJScannningView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F383CEE210710770043E7B1 /* JJScannningView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJScannningView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F383CF1210710770043E7B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F383CF2210710770043E7B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F383CF4210710770043E7B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F383CF5210710770043E7B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F383CF8210710770043E7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F383CFA210710770043E7B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F383CFD210710770043E7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F383CFF210710770043E7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F383D00210710770043E7B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F383D06210710770043E7B1 /* JJScannningViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJScannningViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F383D0A210710770043E7B1 /* JJScannningViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJScannningViewTests.m; sourceTree = "<group>"; };
+		0F383D0C210710770043E7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F383D11210710770043E7B1 /* JJScannningViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJScannningViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F383D15210710770043E7B1 /* JJScannningViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJScannningViewUITests.m; sourceTree = "<group>"; };
+		0F383D17210710770043E7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F383D252107108E0043E7B1 /* flash_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flash_close.png; sourceTree = "<group>"; };
+		0F383D262107108E0043E7B1 /* flash_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flash_open.png; sourceTree = "<group>"; };
+		0F383D272107108E0043E7B1 /* scanLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanLine.png; sourceTree = "<group>"; };
+		0F383D282107108E0043E7B1 /* 右上.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右上.png"; sourceTree = "<group>"; };
+		0F383D292107108E0043E7B1 /* 右下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右下.png"; sourceTree = "<group>"; };
+		0F383D2A2107108E0043E7B1 /* 左上.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "左上.png"; sourceTree = "<group>"; };
+		0F383D2B2107108E0043E7B1 /* 左下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "左下.png"; sourceTree = "<group>"; };
+		0F383D2C2107108E0043E7B1 /* JJScanningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJScanningView.h; sourceTree = "<group>"; };
+		0F383D2D2107108E0043E7B1 /* JJScanningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJScanningView.m; sourceTree = "<group>"; };
+		0F383D2F2107108E0043E7B1 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		0F383D39210710960043E7B1 /* ScanningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanningViewController.m; sourceTree = "<group>"; };
+		0F383D3A210710960043E7B1 /* ScanningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanningViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F383CEB210710770043E7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F383D03210710770043E7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F383D0E210710770043E7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F383CE5210710770043E7B1 = {
+			isa = PBXGroup;
+			children = (
+				0F383CF0210710770043E7B1 /* JJScannningView */,
+				0F383D09210710770043E7B1 /* JJScannningViewTests */,
+				0F383D14210710770043E7B1 /* JJScannningViewUITests */,
+				0F383CEF210710770043E7B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F383CEF210710770043E7B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F383CEE210710770043E7B1 /* JJScannningView.app */,
+				0F383D06210710770043E7B1 /* JJScannningViewTests.xctest */,
+				0F383D11210710770043E7B1 /* JJScannningViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F383CF0210710770043E7B1 /* JJScannningView */ = {
+			isa = PBXGroup;
+			children = (
+				0F383D232107108E0043E7B1 /* JJScanningView */,
+				0F383CF1210710770043E7B1 /* AppDelegate.h */,
+				0F383CF2210710770043E7B1 /* AppDelegate.m */,
+				0F383D3A210710960043E7B1 /* ScanningViewController.h */,
+				0F383D39210710960043E7B1 /* ScanningViewController.m */,
+				0F383CF4210710770043E7B1 /* ViewController.h */,
+				0F383CF5210710770043E7B1 /* ViewController.m */,
+				0F383CF7210710770043E7B1 /* Main.storyboard */,
+				0F383CFA210710770043E7B1 /* Assets.xcassets */,
+				0F383CFC210710770043E7B1 /* LaunchScreen.storyboard */,
+				0F383CFF210710770043E7B1 /* Info.plist */,
+				0F383D00210710770043E7B1 /* main.m */,
+			);
+			path = JJScannningView;
+			sourceTree = "<group>";
+		};
+		0F383D09210710770043E7B1 /* JJScannningViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F383D0A210710770043E7B1 /* JJScannningViewTests.m */,
+				0F383D0C210710770043E7B1 /* Info.plist */,
+			);
+			path = JJScannningViewTests;
+			sourceTree = "<group>";
+		};
+		0F383D14210710770043E7B1 /* JJScannningViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F383D15210710770043E7B1 /* JJScannningViewUITests.m */,
+				0F383D17210710770043E7B1 /* Info.plist */,
+			);
+			path = JJScannningViewUITests;
+			sourceTree = "<group>";
+		};
+		0F383D232107108E0043E7B1 /* JJScanningView */ = {
+			isa = PBXGroup;
+			children = (
+				0F383D242107108E0043E7B1 /* images */,
+				0F383D2C2107108E0043E7B1 /* JJScanningView.h */,
+				0F383D2D2107108E0043E7B1 /* JJScanningView.m */,
+				0F383D2E2107108E0043E7B1 /* sound */,
+			);
+			path = JJScanningView;
+			sourceTree = "<group>";
+		};
+		0F383D242107108E0043E7B1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0F383D252107108E0043E7B1 /* flash_close.png */,
+				0F383D262107108E0043E7B1 /* flash_open.png */,
+				0F383D272107108E0043E7B1 /* scanLine.png */,
+				0F383D282107108E0043E7B1 /* 右上.png */,
+				0F383D292107108E0043E7B1 /* 右下.png */,
+				0F383D2A2107108E0043E7B1 /* 左上.png */,
+				0F383D2B2107108E0043E7B1 /* 左下.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		0F383D2E2107108E0043E7B1 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				0F383D2F2107108E0043E7B1 /* sound.mp3 */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F383CED210710770043E7B1 /* JJScannningView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F383D1A210710770043E7B1 /* Build configuration list for PBXNativeTarget "JJScannningView" */;
+			buildPhases = (
+				0F383CEA210710770043E7B1 /* Sources */,
+				0F383CEB210710770043E7B1 /* Frameworks */,
+				0F383CEC210710770043E7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJScannningView;
+			productName = JJScannningView;
+			productReference = 0F383CEE210710770043E7B1 /* JJScannningView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F383D05210710770043E7B1 /* JJScannningViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F383D1D210710770043E7B1 /* Build configuration list for PBXNativeTarget "JJScannningViewTests" */;
+			buildPhases = (
+				0F383D02210710770043E7B1 /* Sources */,
+				0F383D03210710770043E7B1 /* Frameworks */,
+				0F383D04210710770043E7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F383D08210710770043E7B1 /* PBXTargetDependency */,
+			);
+			name = JJScannningViewTests;
+			productName = JJScannningViewTests;
+			productReference = 0F383D06210710770043E7B1 /* JJScannningViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F383D10210710770043E7B1 /* JJScannningViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F383D20210710770043E7B1 /* Build configuration list for PBXNativeTarget "JJScannningViewUITests" */;
+			buildPhases = (
+				0F383D0D210710770043E7B1 /* Sources */,
+				0F383D0E210710770043E7B1 /* Frameworks */,
+				0F383D0F210710770043E7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F383D13210710770043E7B1 /* PBXTargetDependency */,
+			);
+			name = JJScannningViewUITests;
+			productName = JJScannningViewUITests;
+			productReference = 0F383D11210710770043E7B1 /* JJScannningViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F383CE6210710770043E7B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "冀佳伟";
+				TargetAttributes = {
+					0F383CED210710770043E7B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0F383D05210710770043E7B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F383CED210710770043E7B1;
+					};
+					0F383D10210710770043E7B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F383CED210710770043E7B1;
+					};
+				};
+			};
+			buildConfigurationList = 0F383CE9210710770043E7B1 /* Build configuration list for PBXProject "JJScannningView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F383CE5210710770043E7B1;
+			productRefGroup = 0F383CEF210710770043E7B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F383CED210710770043E7B1 /* JJScannningView */,
+				0F383D05210710770043E7B1 /* JJScannningViewTests */,
+				0F383D10210710770043E7B1 /* JJScannningViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F383CEC210710770043E7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F383D362107108E0043E7B1 /* 左下.png in Resources */,
+				0F383D322107108E0043E7B1 /* scanLine.png in Resources */,
+				0F383CFE210710770043E7B1 /* LaunchScreen.storyboard in Resources */,
+				0F383D312107108E0043E7B1 /* flash_open.png in Resources */,
+				0F383D382107108E0043E7B1 /* sound.mp3 in Resources */,
+				0F383D302107108E0043E7B1 /* flash_close.png in Resources */,
+				0F383D332107108E0043E7B1 /* 右上.png in Resources */,
+				0F383CFB210710770043E7B1 /* Assets.xcassets in Resources */,
+				0F383CF9210710770043E7B1 /* Main.storyboard in Resources */,
+				0F383D352107108E0043E7B1 /* 左上.png in Resources */,
+				0F383D342107108E0043E7B1 /* 右下.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F383D04210710770043E7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F383D0F210710770043E7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F383CEA210710770043E7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F383CF6210710770043E7B1 /* ViewController.m in Sources */,
+				0F383D3B210710960043E7B1 /* ScanningViewController.m in Sources */,
+				0F383D01210710770043E7B1 /* main.m in Sources */,
+				0F383CF3210710770043E7B1 /* AppDelegate.m in Sources */,
+				0F383D372107108E0043E7B1 /* JJScanningView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F383D02210710770043E7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F383D0B210710770043E7B1 /* JJScannningViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F383D0D210710770043E7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F383D16210710770043E7B1 /* JJScannningViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F383D08210710770043E7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F383CED210710770043E7B1 /* JJScannningView */;
+			targetProxy = 0F383D07210710770043E7B1 /* PBXContainerItemProxy */;
+		};
+		0F383D13210710770043E7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F383CED210710770043E7B1 /* JJScannningView */;
+			targetProxy = 0F383D12210710770043E7B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F383CF7210710770043E7B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F383CF8210710770043E7B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F383CFC210710770043E7B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F383CFD210710770043E7B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F383D18210710770043E7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F383D19210710770043E7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F383D1B210710770043E7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC8P2LNWW9;
+				INFOPLIST_FILE = JJScannningView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.---.JJScannningView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F383D1C210710770043E7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FC8P2LNWW9;
+				INFOPLIST_FILE = JJScannningView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.---.JJScannningView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F383D1E210710770043E7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJScannningViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.---.JJScannningViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJScannningView.app/JJScannningView";
+			};
+			name = Debug;
+		};
+		0F383D1F210710770043E7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJScannningViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.---.JJScannningViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJScannningView.app/JJScannningView";
+			};
+			name = Release;
+		};
+		0F383D21210710770043E7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJScannningViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.---.JJScannningViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJScannningView;
+			};
+			name = Debug;
+		};
+		0F383D22210710770043E7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJScannningViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.---.JJScannningViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJScannningView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F383CE9210710770043E7B1 /* Build configuration list for PBXProject "JJScannningView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F383D18210710770043E7B1 /* Debug */,
+				0F383D19210710770043E7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F383D1A210710770043E7B1 /* Build configuration list for PBXNativeTarget "JJScannningView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F383D1B210710770043E7B1 /* Debug */,
+				0F383D1C210710770043E7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F383D1D210710770043E7B1 /* Build configuration list for PBXNativeTarget "JJScannningViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F383D1E210710770043E7B1 /* Debug */,
+				0F383D1F210710770043E7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F383D20210710770043E7B1 /* Build configuration list for PBXNativeTarget "JJScannningViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F383D21210710770043E7B1 /* Debug */,
+				0F383D22210710770043E7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F383CE6210710770043E7B1 /* Project object */;
+}
